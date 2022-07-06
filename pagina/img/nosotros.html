@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" 
+    integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" 
+    crossorigin="anonymous">
+    <!-- CSS only -->
+    <link rel="stylesheet" 
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Pastelería SoB</title>
+  </head>
+  <body>
+
+    <!-- ========================= -->
+    <!-- ENCABEZADO -->
+    <!-- ========================= -->
+    
+    <nav class="navbar navbar-expand-lg navbar-light p-3" id="menu">
+        <div class="container">
+            <a class="navbar-brand" href="">
+              <span class="text-dark fs-5 fw-bold">Pastelería Sob</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" 
+            data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" 
+            aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="nosotros.html">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="productosventa.html">Productos</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" 
+                  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Usuario
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item" href="inUsuario.html">Ingresar</a></li>
+                    <li><a class="dropdown-item" href="reUsuario.html">Registrarse</a></li>
+                  </ul>
+                </li>
+
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                  <ul class="navbar-nav mr-auto">
+                      <li class="nav-item dropdown">
+                          <img src="cart.jpeg" class="nav-link dropdown-toggle img-fluid" height="70px"
+                              width="70px" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true"
+                              aria-expanded="false"></img>
+                          <div id="carrito" class="dropdown-menu" aria-labelledby="navbarCollapse">
+                              <table id="lista-carrito" class="table">
+                                  <thead>
+                                      <tr>
+                                          <th>Imagen</th>
+                                          <th>Nombre</th>
+                                          <th>Precio</th>
+                                          <th></th>
+                                      </tr>
+                                  </thead>
+                                  <tbody></tbody>
+                              </table>
+
+                              <a href="#" id="vaciar-carrito" class="btn btn-primary btn-block">Vaciar Carrito</a>
+                              <a href="compra.html" id="procesar-pedido" class="btn btn-danger btn-block">Procesar
+                                  Compra</a>
+                          </div>
+                      </li>
+                  </ul>
+                </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item" href="#"> </a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+        </div>
+      </nav>
+    
+    <!-- ========================= -->
+    <!-- ESTE ES EL INICIO DEL CONTENIDO PRINCIPAL -->
+    <!-- ========================= -->
+
+    <main class="contenedor">
+        <h1 class="somos">¿Quienes somos?</h1> <br>
+
+            <div class="nosotros">
+                <img src="slide2.jpg" class="d-block w-100" alt="slidefa-stack-2x">
+                <h2>Somos expertos en
+                  ofrecemos a nuestros clientes productos de la mejor calidad y frescura. 
+                  Contamos con una amplia gama de variedades en pan, repostería y pasteles de línea para todo tipo de gusto.
+                </h2>
+            </div>
+            <style>
+              h2{
+              position: absolute;
+               top: 38%;
+               left: 35%;
+               transform: translate(-50%, -50%);
+               color: rgb(252, 252, 252);
+               }
+            </style>
+
+            <div class="nosotros-texto">
+                
+            </div>                        
+
+    </main>
+    
+    
+    <!-- ========================= -->
+    <!-- PIE DE LA PAGINA -->
+    <!-- ========================= -->
+
+    <footer class="w-100 d-flex align-items-center justify-content-center flex-wrap">
+      <p class="fs-5 px-3 pt-3">Pastelería SoB &copy; 2022 - Todos Los Derechos Reservados</p>
+      <div id="iconos">
+        <a href="#"><i class="bi bi-facebook"></i></a>
+        <a href="#"><i class="bi bi-whatsapp"></i></a>
+        <a href="#"><i class="bi bi-instagram"></i></a>
+      </div>
+    
+    </footer>
+  
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+
+  </body>
+</html>
